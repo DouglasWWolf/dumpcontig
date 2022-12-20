@@ -18,7 +18,7 @@
 
 using namespace std;
 
-PhysMem     contigBuffer;   // Manages the reserved contiguous buffer
+PhysMem contigBuffer;   // Manages the reserved contiguous buffer
 
 void execute();
 
@@ -27,7 +27,6 @@ void execute();
 //=================================================================================================
 int main(int argc, char** argv)
 {
-
     try
     {
         execute();
